@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,15 +6,14 @@
 
   <ItemGroup>
     <PackageReference Include="Consul" Version="0.7.2.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AppCoreSample.Consul\AppCoreSample.Consul.csproj" />
     <ProjectReference Include="..\AppCoreSample.IServices\AppCoreSample.IServices.csproj" />
     <ProjectReference Include="..\AppCoreSample.Services\AppCoreSample.Services.csproj" />
-    <ProjectReference Include="..\AppCoreSample.Util\AppCoreSample.Util.csproj" />
   </ItemGroup>
-
 
 
 </Project>
